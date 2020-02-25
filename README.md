@@ -1,4 +1,4 @@
-# example
+# Vue.js - Axios Example
 
 ## Project setup
 ```
