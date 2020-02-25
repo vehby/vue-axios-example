@@ -32,7 +32,7 @@ export default {
 
   mounted (){
     axios
-    .get("https://api.coindesk.com/v1/bpi/currentprice.json")
+    .get("https://api.coindesk.com/v1/bpi/currentprice/TRY.json")
     .then(response => {this.info = response.data.bpi})
     .catch(error => {
       console.log(error)
